@@ -1,0 +1,15 @@
+Dependencies for Project 'PRZERWANIA', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x64832763)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\main.c)(0x649B5A67)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (C:\Users\HOME\Desktop\przerwania\przerwania\LED.h)(0x647D03C1)
+I (C:\Users\HOME\Desktop\przerwania\przerwania\timer_interrupts.h)(0x64832CD2)
+I (C:\Users\HOME\Desktop\przerwania\przerwania\KEYBOARD.h)(0x647D097F)
+F (.\timer_interrupts.c)(0x649B2C0B)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\timer_interrupts.o --omf_browse .\timer_interrupts.crf --depend .\timer_interrupts.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C81BAC)
+I (C:\Users\HOME\Desktop\przerwania\przerwania\timer_interrupts.h)(0x64832CD2)
+F (..\..\moduly\KEYBOARD.c)(0x647D0953)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\keyboard.o --omf_browse .\keyboard.crf --depend .\keyboard.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C81BAC)
+I (C:\Users\HOME\Desktop\moduly\keyboard.h)(0x647D097F)
+F (..\..\moduly\LED.c)(0x647D095D)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\led.o --omf_browse .\led.crf --depend .\led.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C81BAC)
+I (C:\Users\HOME\Desktop\moduly\led.h)(0x647D03C1)
